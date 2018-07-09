@@ -1,6 +1,6 @@
 {
   "name": "fc-falling-letters",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React component that animates each provided letter as falling text.",
   "main": "dist/FallingLetters.js",
   "scripts": {

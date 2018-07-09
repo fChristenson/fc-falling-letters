@@ -4,7 +4,7 @@
 
 React component that animates each provided letter as falling text.
 
-`npm install fc-falling-letter`
+`npm install fc-falling-letters`
 
 ## Example
 

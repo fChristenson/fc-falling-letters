@@ -1,10 +1,10 @@
 {
   "name": "fc-falling-letters",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component that animates each provided letter as falling text.",
-  "main": "FallingLetters.js",
+  "main": "dist/FallingLetters.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dist": "babel FallingLetters.js --presets react --out-dir dist"
   },
   "author": "Fredrik Christenson",
   "license": "MIT",
@@ -15,11 +15,12 @@
     "react": "*"
   },
   "devDependencies": {
-    "webpack": "^4.15.1",
-    "webpack-cli": "^3.0.8",
-    "react-dom": "^16.4.1",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "react-dom": "^16.4.1",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
   }
 }

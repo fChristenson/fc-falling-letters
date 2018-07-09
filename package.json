@@ -8,13 +8,11 @@
   },
   "author": "Fredrik Christenson",
   "license": "MIT",
-  "dependencies": {
-    "react": "^16.4.1"
-  },
   "peerDependencies": {
     "react": "*"
   },
   "devDependencies": {
+    "react": "^16.4.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",

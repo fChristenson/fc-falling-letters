@@ -8,7 +8,7 @@ React component that animates each provided letter as falling text.
 
 ## Example
 
-![example gif](./example.gif)
+![example gif](example.gif)
 
 ```
 const React = require("react");
